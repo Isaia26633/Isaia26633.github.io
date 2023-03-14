@@ -15,6 +15,18 @@
             color: white;
         }
 
+        .image {
+            background-image: url(rainycity.jpg);
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            height: 100%;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
         .title {
             padding: 60px;
             background-color: rgb(69, 145, 211);
@@ -25,6 +37,21 @@
             position: static;
         }
 
+        .inside-bg {
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.4);
+            color: white;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+        }
+
         #port {
             color: white;
             text-align: center;
@@ -33,32 +60,26 @@
 </head>
 
 <body>
-    <div class="title">
-        <h1 id="Port">My Portfolio</h1>
-        <div id="abtMe">
-            <p><a href="#p1">Who I am</a></p>
+    <div class="image"></div>
+    <div class="inside-bg">
+        <div class="title">
+            <h1 id="Port">My Portfolio</h1>
+            <div id="abtMe">
+                <p><a href="#p1">Who I am</a></p>
+            </div>
+            <div id="edu">
+                <p><a href="C:\Users\IKnaby\Documents\Isaia26633.github.io\edu.html">What I've learned</a></p>
+            </div>
+            <div id="abtGame">
+                <p><a href="C:\Users\IKnaby\Documents\Isaia26633.github.io\game.html">About my game</a></p>
+            </div>
         </div>
-        <div id="edu">
-            <p>What I've learned</p>
+        <div class="p1">
+            <h2 id="p1">Who I am</h2>
+            <p>My name is Isaiah and I am currently a freshmen taking a computer programming course this quarter we
+                learned
+                html, CSS, a little bit of JavaScript and how to make a game using rpg maker.</p>
         </div>
-        <div id="abtGame">
-            <p><a href="C:\Users\IKnaby\Documents\Isaia26633.github.io\game.html">About my game</a></p>
-        </div>
-    </div>
-    <div class="p1">
-        <h2 id="p1">Who I am</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus euismod felis, at vehicula velit
-            molestie
-            et. Aliquam malesuada vehicula aliquam. Morbi posuere blandit enim et dignissim. Morbi eget ultricies elit,
-            eu
-            iaculis nibh. Morbi luctus pretium nisi id varius. Quisque ac tellus vulputate, vehicula neque sed,
-            convallis
-            tellus. Nulla odio mi, tempus elementum commodo vel, efficitur ac risus. Aliquam id mollis eros, dignissim
-            cursus dui. Suspendisse semper mattis condimentum. Morbi quis lacus in dui feugiat tempor a a lorem. Duis
-            dolor
-            metus, facilisis vitae dui nec, volutpat accumsan mauris. Pellentesque in vulputate felis. Interdum et
-            malesuada
-            fames ac ante ipsum primis in faucibus. Donec efficitur ipsum sed dui tincidunt dignissim.</p>
     </div>
     </div>
 </body>
