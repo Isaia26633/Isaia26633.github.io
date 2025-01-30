@@ -38,3 +38,22 @@ a{
     color: white;
     font-size: large;
 }
+
+#spotify {
+    background-color: #191414;
+    color: #191414;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+}
+
+.Spottitle {
+    padding: 60px;
+    background-color: 1DB954;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    border: dotted white;
+    position: static;
+}
